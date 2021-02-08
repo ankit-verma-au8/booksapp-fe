@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Press+Start+2P&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html,body{
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.App {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;text-align: center; */
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./images/login.jpg");
+  min-width: 100%;
+  min-height: 100vh;
+  height: auto;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.type_writer {
+  font-family: "Montserrat", sans-serif;
+  color: #eee;
+  font-size: 4rem;
+  font-weight: 300;
+  padding: 70px;
+  text-align: center;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #ffff;
+  border-color: #ffff transparent #ffff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Heart loader */
+
+.lds-heart {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  transform-origin: 40px 40px;
+}
+.lds-heart div {
+  top: 32px;
+  left: 32px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: red;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: red;
+}
+.lds-heart div:before {
+  left: -24px;
+  border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+  top: -24px;
+  border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+  0% {
+    transform: scale(0.95);
+  }
+  5% {
+    transform: scale(1.1);
+  }
+  39% {
+    transform: scale(0.85);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}

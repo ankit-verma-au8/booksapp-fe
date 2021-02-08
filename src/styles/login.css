@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rye&display=swap");
+
+.form-container {
+  background-color: rgba(161, 161, 161, 0.5);
+  text-align: center;
+  color: white;
+  height: auto;
+  width: auto;
+  min-width: 50%;
+  max-width: 100%;
+  display: flex;
+  padding: 20px 0px;
+  margin: 5px 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.Logo {
+  font-size: 3.5rem;
+  color: #3498db;
+  font-family: "Rye", cursive;
+}
+.Sublogo {
+  color: #3498db;
+  font-family: "Kaushan Script", cursive;
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.form-elements {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 12px;
+}
+.form-boxmain {
+  display: flex;
+  justify-content: center;
+}
+.form-box {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  padding: 12px;
+  margin-left: 10px;
+}
+.form-links {
+  font-size: 12px;
+  color: white;
+}
+.form-links:hover {
+  color: black;
+}
+.form-parentlink {
+  padding: 10px;
+}
+.form-alert {
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+  width: auto;
+}
+input {
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  color: white;
+  outline: none;
+  background: transparent;
+}
+select {
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  color: white;
+  outline: none;
+  background: transparent;
+}
+option {
+  color: black;
+}
+.check-box {
+  width: 1rem;
+  margin-right: 0px;
+  padding: 0px;
+}
+.form-checkbox {
+  font-size: 12px;
+  padding-left: 5px;
+}
+::placeholder {
+  color: white;
+  opacity: 0.5;
+  font-size: 0.7rem;
+}
+
+.form-inputs {
+  margin: 5px;
+}
+.form-inputs1 {
+  margin: 5px;
+  width: 100%;
+}
+
+
+.form-button {
+  width: 85%;
+  padding: 5px 5px;
+  cursor: pointer;
+  display: block;
+  margin: 5px auto;
+  background-color: #3498db;
+  color: white;
+  outline: none !important;
+  border: none !important;
+  font-size: 1rem;
+  box-shadow: 0 0 1px 1px #3498db;
+}
+.form-button1 {
+  width: 5rem;
+  padding: 5px 5px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  background-color: #3498db;
+  color: white;
+  outline: none !important;
+  border: none !important;
+  font-size: 1rem;
+  box-shadow: 0 0 1px 1px #3498db;
+}
+.form-button:hover {
+  color:#3498db;
+  background-color: white;
+}
+.form-button1:hover {
+  color:#3498db;
+  background-color: white;
+}
+.forgotcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+ 
+}
+
+.fori{
+  margin: 50px;
+  padding: 30px;
+  font-size: 16px;
+  /* background-color: rgba(161, 161, 161, 0.5); */
+  border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.2);
+    box-shadow: 20px 20px 50px rgba(0,0,0,1);
+    border-radius: 5px;
+}
+
+.form-alert1 {
+  color: red;
+  font-weight: bold;
+  width: auto;
+}

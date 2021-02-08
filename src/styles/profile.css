@@ -1,0 +1,89 @@
+.profile-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+.profile-line {
+  font-size: 12px;
+  margin: 5px;
+  min-width: 20px;
+}
+
+.profile-line1 {
+  font-size: 12px;
+  margin: 5px;
+  width: auto;
+  max-width: 10rem;
+  height: auto;
+  text-align: center;
+  display: block;
+  word-wrap: break-word;
+}
+
+.form-inputbio {
+  border: none;
+  outline: none;
+  width: 50vw;
+  height: 4vw;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container {
+  /* height: 300px;
+    width: 300px; */
+  border-radius: 10px;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+}
+.heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.img-holder {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#input[type="file"] {
+  display: none;
+}
+.label {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.image-upload {
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-upload:hover {
+  color: #3498db;
+}
+
+td {
+  text-align: justify;
+  padding: 10px;
+}
+
+table {
+  border-spacing: 5px;
+}

@@ -1,0 +1,124 @@
+.alltasks{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* box-shadow: 2px 2px 2px 2px #888888;
+    padding: 2px;
+    margin: 2px; */
+}
+
+.inditask{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    height: auto;
+    width: 300px;
+    padding: 15px;
+    color: white;
+    margin: 0px 10px 10px 10px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    border-left: 1px solid rgb(153, 151, 151);
+    border-right: 1px solid rgb(153, 151, 151);
+}
+.booksinput{
+    min-width: 80% !important;
+    width: auto;
+    color: white;
+}
+.booksinput input{
+    width: 85%;
+}
+.listitems{
+    list-style-type: none;
+    text-align: left;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    color: white;
+}
+
+.listitemsitem{
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.listitemsitem:hover{
+    color: black;
+    background-color: white;
+}
+
+.bookbtn{
+    border: none !important;
+    outline: none !important;
+    padding: 5px 10px;
+    color: white;
+    background-color: #3498db;
+    margin: 5px;
+}
+
+.bookbtn:hover{
+    color: #3498db;
+    background-color: white;
+}
+
+.planned{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    min-height: 15rem;
+    font-size: 10px !important;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255,0.3);
+    cursor: pointer;
+}
+.bkimg{
+    margin-bottom: 10px;
+}
+.bkvbtn{
+background-color:green;
+font-weight: bold;
+}
+.bkvbtn:hover{
+color: green;
+background-color: white;
+}
+.bkdbtn{
+background-color: red;
+font-weight: bold;
+}
+.bkdbtn:hover{
+    color: red;
+    background-color: white;
+}
+.bkt{
+    font-size: 10px !important;
+    font-weight: bold !important;
+    width: auto!important;
+    height: 3rem !important;
+    padding-left: 10px;
+    text-align: center;
+}
+.buk{
+    width: 150px;
+    height: 150px !important;
+    border-radius: 5px 5px 0px 0px;  
+}
+.planned:hover{
+    box-shadow: 2px 2px 1px 1px black;
+}
+
+
+.library-heading{
+font-size: 1.5rem;
+font-weight: bolder;
+}
+
+

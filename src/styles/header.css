@@ -1,0 +1,72 @@
+.Header-Logo {
+  font-size: 2rem;
+  color: white;
+  font-family: "Rye", cursive;
+}
+.Header-Sublogo {
+  color: white;
+  font-family: "Kaushan Script", cursive;
+  font-size: 0.5rem;
+}
+.Header-Title {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.3rem;
+  width: 10rem;
+  cursor: pointer;
+}
+.Header-Total {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(153, 151, 151);
+}
+.User-image {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 5px;
+}
+.User-name {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.User-button {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+.User-button:focus {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.User-logo {
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.form-links1 {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.form-links1:hover {
+  font-size: 16px;
+  text-decoration: none;
+}
+.form-links1:focus {
+  color: white;
+}
+
+
